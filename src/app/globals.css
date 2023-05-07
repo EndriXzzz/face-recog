@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button:hover{
+  box-shadow: 0 0 2rem #FFFFFF;
+}
