@@ -1,3 +1,20 @@
+import Image from "next/image"
+
 export default function Home() {
-  return <h1>Hello Typescript Template</h1>
+  return (
+    <div>
+
+      <div>
+        <h1></h1>
+        <p></p>
+        <div>
+          <button></button>
+          <button></button>
+        </div>
+      </div>
+
+      <div></div>
+
+    </div>
+  )
 }
