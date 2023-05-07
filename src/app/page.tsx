@@ -19,13 +19,13 @@ export default function Home() {
         <h1 className={`${bebas.className} text-9xl`}>FaceSegura</h1>
         <p className="text-6xl mb-10">A segurança feito com a identificação de seu rosto</p>
         <div className="flex items-center gap-5">
-          <button className="px-20 py-5 text-4xl bg-primary">Entrar</button>
-          <button className="px-20 py-5 text-4xl bg-primary">Cadastro</button>
+          <button className="px-20 py-5 text-4xl font-bold bg-primary transition-all duration-500 ease-in uppercase">Entrar</button>
+          <button className="px-20 py-5 text-4xl font-bold bg-primary transition-all duration-500 ease-in uppercase">Cadastro</button>
         </div>
       </div>
 
       <div>
-        <Image src={Logo} alt=""/>
+        <Image src={Logo} alt="" />
       </div>
 
     </div>
