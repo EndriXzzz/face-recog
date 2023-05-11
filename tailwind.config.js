@@ -21,6 +21,12 @@ module.exports = {
       'sm': { 'raw': '(max-width: 375px)' },
       'xs': { 'raw': '(max-width: 320px)' },
       'h-md': { 'raw': '(max-height: 700px)' }
+    },
+    extend: {
+      backgroundImage: {
+        'init-system': "url('/images/InitiatingSystem1.gif')",
+        'diagonal-patterns': "repeating-linear-gradient(40deg, #3d3d3d 20px, #3d3d3d 20px, rgba(0, 0, 0, 0) 20px, #3d3d3d 20px, rgba(0, 0, 0, 0) 40px)"
+      }
     }
   },
   plugins: [],
