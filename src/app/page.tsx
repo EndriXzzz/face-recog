@@ -16,8 +16,8 @@ export default function Home() {
     <div className="w-full h-screen p-40 flex items-center justify-between bg-init-system bg-cover">
 
       <div className="w-1/2 z-[1]">
-        <h1 className={`${bebas.className} text-9xl`}>FaceSegura</h1>
-        <p className="text-6xl mb-10">A segurança feito com a identificação de seu rosto</p>
+        <h1 className={`${bebas.className} text-9xl`}>FaceTyping</h1>
+        <p className="text-6xl mb-10">A segurança feita com a identificação do seu rosto</p>
         <div className="flex items-center gap-5">
           <button className="px-20 py-5 text-4xl font-bold bg-primary transition-all duration-500 ease-in uppercase">Entrar</button>
           <button className="px-20 py-5 text-4xl font-bold bg-primary transition-all duration-500 ease-in uppercase">Cadastro</button>
