@@ -1,8 +1,11 @@
 import Image from "next/image"
 
+import Link from "next/link"
+
 import Logo from "../../public/images/aiface.png"
 
 import { Bebas_Neue } from 'next/font/google'
+import Button from "@/components/Button"
 
 const bebas = Bebas_Neue({
   weight: ["400"],
@@ -19,8 +22,8 @@ export default function Home() {
         <h1 className={`${bebas.className} text-9xl`}>FaceTyping</h1>
         <p className="text-6xl mb-10">A segurança feita com a identificação do seu rosto</p>
         <div className="flex items-center gap-5">
-          <button className="px-20 py-5 text-4xl font-bold bg-primary transition-all duration-500 ease-in uppercase">Entrar</button>
-          <button className="px-20 py-5 text-4xl font-bold bg-primary transition-all duration-500 ease-in uppercase">Cadastro</button>
+          <Button>Entrar</Button>
+          <Link href="/signup"> <Button>Cadastro</Button> </Link>
         </div>
       </div>
 
